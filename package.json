@@ -1,0 +1,31 @@
+{
+  "name": "platzigram-ws",
+  "version": "1.0.0",
+  "description": "platzigram Real Time Backend",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramarulandac/platzigram-ws.git"
+  },
+  "author": "René Marulanda <rene.marulanda@gmail.com> (https://twitter.com/MaruloRenacuajo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramarulandac/platzigram-ws/issues"
+  },
+  "homepage": "https://github.com/ramarulandac/platzigram-ws#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^2.0.3",
+    "standard": "^10.0.3"
+  }
+}
